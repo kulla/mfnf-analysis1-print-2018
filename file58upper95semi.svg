@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="214px" height="153px" viewBox="0 0 214 153" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g stroke-width="2" fill="none">
+<g>
+<path stroke="black" d="M0 102H208M71.3333 153V6"/>
+<path fill="black" d="M202 96L214 102 202 108Q208 102 202 96Z"/>
+<path fill="black" d="M65.3333 12L71.3333 0 77.3333 12Q71.3333 6 65.3333 12Z"/>
+</g>
+<path stroke="blue" d="M0 0Q53.5 153 107 76.5M107 51Q160.5 -25.5 214 127.5"/>
+</g>
+<g><circle cx="107" cy="76.5" r="4" fill="blue"/><circle cx="107" cy="76.5" r="2" fill="white"/></g>
+<circle cx="107" cy="51" r="4" fill="blue"/>
+<circle cx="107" cy="102" r="4"/>
+<text x="107" y="126" font-family="Nimbus Roman No9 L,serif" font-size="24" font-style="italic" text-anchor="middle">
+x<tspan font-size="12" font-style="normal" baseline-shift="sub">0</tspan>
+</text>
+</svg>
+

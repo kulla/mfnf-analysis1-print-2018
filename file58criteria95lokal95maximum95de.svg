@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="510"
+   height="380"
+   viewBox="60 30 510 380"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="criteria_lokal_maximum_de.svg">
+  <metadata
+     id="metadata41">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Minima und Maxima</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1536"
+     inkscape:window-height="801"
+     id="namedview39"
+     showgrid="false"
+     inkscape:zoom="0.62105263"
+     inkscape:cx="255"
+     inkscape:cy="190"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">Minima und Maxima</title>
+  <defs
+     id="defs6">
+    <marker
+       id="Arrow"
+       refX="8"
+       refY="5"
+       markerUnits="userSpaceOnUse"
+       markerWidth="14"
+       markerHeight="10"
+       orient="auto">
+      <g
+         transform="translate(7 5) scale(1.4)"
+         id="g9">
+        <path
+           d="M -8 0 L -8 4 L 6 0 L -8 -4 z"
+           id="path11" />
+      </g>
+    </marker>
+    <style
+       type="text/css"
+       id="style13"><![CDATA[
+	.end    { text-anchor:end; }
+	.middle { text-anchor:middle; }
+	.scaling { stroke:none; fill:black; font-family:Bitstream Vera Sans; font-size:18.00; }
+	.curve {  fill:none; stroke:black; stroke-width:3.00; stroke-linecap:butt; stroke-linejoin:round; }
+	.max { fill:#b14; }
+	.min { fill:#08c; }
+	.label { stroke:none; font-family:Bitstream Vera Sans; font-size:26px; text-anchor:end; }
+	.axis  { fill:none; stroke:gray; stroke-width:1; stroke-linecap:butt; stroke-linejoin:miter; }
+	.arrow { fill:none; stroke: black; stroke-width:1.5; stroke-linecap:butt; marker-end:url(#Arrow); }
+	]]></style>
+  </defs>
+  <!-- Background -->
+  <rect
+     x="82.542366"
+     y="58.983051"
+     width="510"
+     height="380"
+     id="rect15"
+     style="fill:#ffffff;fill-opacity:0.7" />
+  <!-- x-Axis -->
+  <!-- Labels and Arrows -->
+  <text
+     x="367.54236"
+     y="149.66101"
+     class="label min"
+     style="font-size:26px;font-family:'Bitstream Vera Sans';text-anchor:middle;fill:#0088cc;stroke:none"
+     id="text27">lokales Maximum</text>
+  <path
+     class="arrow"
+     d="m 350.82801,161.99541 0.93154,33.92834"
+     id="path29"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;marker-end:url(#Arrow)" />
+  <!-- some Graph -->
+  <path
+     class="curve"
+     d="m 127.54238,74.983051 c 13,113.999999 35,277.999999 82,277.999999 47,0 83,-144 143,-144 60,0 82,77 145,77 17,0 45,-15 45,-15"
+     id="path37"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round" />
+  <path
+     id="path4193"
+     d="m 209.54238,352.98305 c 47,0 83,-144 143,-144"
+     class="curve"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;stroke:#009c00;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+     sodipodi:nodetypes="cc" />
+  <path
+     id="path4197"
+     d="m 352.54238,208.98305 c 60,0 82,77 145,77"
+     class="curve"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#f10000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
+     sodipodi:nodetypes="cc" />
+  <text
+     id="text4199"
+     style="font-size:26px;font-family:'Bitstream Vera Sans';text-anchor:middle;fill:#009c00;fill-opacity:1;stroke:none"
+     class="label min"
+     y="259.15256"
+     x="233.89828">f'(x)&gt;0</text>
+  <text
+     x="467.37286"
+     y="235"
+     class="label min"
+     style="font-size:26px;font-family:'Bitstream Vera Sans';text-anchor:middle;fill:#f10000;fill-opacity:1;stroke:none"
+     id="text4201">f'(x)&lt;0</text>
+</svg>
