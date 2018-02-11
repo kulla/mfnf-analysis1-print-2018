@@ -22,3 +22,11 @@ all: ${FIGURES}
 
 %.pdf: %.png
 	convert $< $@
+
+.PHONY: clean
+clean:
+	git -fx clean
+
+.PHONY: upload
+upload:
+	scp cover.pdf analysis1.pdf hp:~/mfnf-analysis1-lmu2018
