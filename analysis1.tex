@@ -2369,7 +2369,7 @@ So können wir zeigen, dass $(x_{n})_{n\in \mathbb {N} }$ konvergiert und den Gr
 Wir beginnen mit der Konvergenz der Folgen, deren Konvergenzverhalten wir kennen. Durch schrittweise Anwendung der Grenzwertsätze in umgekehrter Reihenfolge leiten wir dann die Konvergenz der betrachteten Folge $(x_{n})_{n\in \mathbb {N} }$ und ihren Grenzwert her. Beim Zeichen $\land $ handelt es sich um die \href{https://de.wikibooks.org/wiki/Mathe\_für\_Nicht-Freaks:\_Junktor\#Anker:Konjunktion}
 {Konjunktion}, die man als „und“ lesen kann.
 
-Den Beweis so aufzuschreiben ist aber aufwendig und macht keinen Spaß. Meist zeigen wir diese Aussagen wie die Beweisskizze oben. Wir wenden einfach die Grenzwertsätze an, obwohl wir nicht wissen, ob die Folgen konvergieren. Wir müssen aber im Nachhinein anmerken, dass wir die Grenzwertsätze anwenden durften. Das gilt, weil am Ende alles konvergiert. Weil bei den letzten Schritten alles funktioniert, durften wie die Schritte davor machen. Wenn wir den Beweis also durch direkte Anwendung der Grenzwertsätze zeigen wollen, müssen wir noch erklären, dass wir diese Sätze benutzen durften.
+Den Beweis so aufzuschreiben ist aber aufwendig und macht keinen Spaß. Meist zeigen wir diese Aussagen wie die Beweisskizze oben. Wir wenden einfach die Grenzwertsätze an, obwohl wir nicht wissen, ob die Folgen konvergieren. Wir müssen aber im Nachhinein anmerken, dass wir die Grenzwertsätze anwenden durften. Das gilt, weil am Ende alles konvergiert. Weil bei den letzten Schritten alles funktioniert, durften wir die Schritte davor machen. Wenn wir den Beweis also durch direkte Anwendung der Grenzwertsätze zeigen wollen, müssen wir noch erklären, dass wir diese Sätze benutzen durften.
 \clearpage
 \section{Beweise der Grenzwertsätze}
 
@@ -2614,7 +2614,7 @@ Also ist stets $|a_{n}-a|<\epsilon $ für alle $n\geq N$.
 \end{proof*}
 
 \begin{hint*}
-Im Sandwichsatz muss die Ungleichung $b_{n}\leq a_{n}\leq c_{n}$ nicht notwendigerweise für alle $n\in \mathbb {N} $ erfüllt sein. Es genügt, wenn sie bis auf endlich viele Folgengleider gilt, d.h. wenn es ein $n_{0}\in \mathbb {N} $ gibt, so dass $b_{n}\leq a_{n}\leq c_{n}$ für alle $n\geq n_{0}$ gilt.
+Im Sandwichsatz muss die Ungleichung $b_{n}\leq a_{n}\leq c_{n}$ nicht notwendigerweise für alle $n\in \mathbb {N} $ erfüllt sein. Es genügt, wenn sie bis auf endlich viele Folgenglieder gilt, d.h. wenn es ein $n_{0}\in \mathbb {N} $ gibt, so dass $b_{n}\leq a_{n}\leq c_{n}$ für alle $n\geq n_{0}$ gilt.
 
 \end{hint*}
 
@@ -3248,9 +3248,9 @@ In der Literatur wird manchmal der Satz von Bolzano-Weierstraß in der Form „J
 
 \section{Notwendigkeit des Vollständigkeitsaxioms}
 
-Nimm eine Folge rationaler Zahlen, die gegen eine irrationale Zahl konvergiert. Weil diese Folge konvergiert, muss sie auch beschränkt sein (wir hatten bereits nachgewiesen, dass jede konvergente Folge beschränkt ist). Außerdem ist der irrationale Grenzwert der einzige Häufungspunkt der Folge (jeder Grenzwert ist alleiniger Häufungspunkt einer Folge).
+Für den Satz von Bolzano-Weierstraß ist die Vollständigkeit der reellen Zahlen eine notwendige Eigenschaft. Um dies zu sehen, nehmen wir als Grundmenge die rationalen Zahlen. Hier betrachten wir eine Folge rationaler Zahlen, die gegen eine irrationale Zahl konvergieren würde. Weil diese Folge konvergiert, muss sie auch beschränkt sein (wir hatten bereits nachgewiesen, dass jede konvergente Folge beschränkt ist). Außerdem ist der irrationale Grenzwert der einzige Häufungspunkt der Folge (jeder Grenzwert ist alleiniger Häufungspunkt einer Folge).
 
-Nimm nun die rationalen Zahlen als Grundmenge an. Nun besitzt die gewählte Folge keinen Häufungspunkt mehr, weil wir beim Wechsel von $\mathbb {R} $ nach $\mathbb {Q} $ den einzigen Häufungspunkt der Folge entfernt haben (dieser ist ja irrational). Damit kann für die Grundmenge der rationalen Zahlen der Satz von Bolzano-Weierstraß nicht gelten. Schließlich kann es beschränkte rationale Folgen geben, die keine rationalen Häufungspunkte besitzen. Dieses Beispiel zeigt, wie wichtig die Grundmenge für den Satz ist und dass wir zum Beweis das Vollständigkeitsaxiom der reellen Zahlen benötigen werden. Schließlich ist die Vollständigkeit die wesentliche Eigenschaft, die die reellen von den rationalen Zahlen unterscheidet.
+Nun besitzt die gewählte Folge keinen Häufungspunkt mehr, weil wir beim Wechsel von $\mathbb {R} $ nach $\mathbb {Q} $ den einzigen Häufungspunkt der Folge entfernt haben. Damit kann für die Grundmenge der rationalen Zahlen der Satz von Bolzano-Weierstraß nicht gelten. Schließlich kann es beschränkte rationale Folgen geben, die keine rationalen Häufungspunkte besitzen. Dieses Beispiel zeigt, wie wichtig die Grundmenge für den Satz ist und dass wir zum Beweis das Vollständigkeitsaxiom der reellen Zahlen benötigen werden. Schließlich ist die Vollständigkeit die wesentliche Eigenschaft, die die reellen von den rationalen Zahlen unterscheidet.
 
 \section{Beweis (mit Intervallschachtelung)}
 
@@ -3472,7 +3472,7 @@ Dementsprechend gibt es für bestimmte Divergenz auch den Begriff der \emph{unei
 Es ist wichtig, dass wir uns merken, dass die bestimmte Divergenz eine Art der Divergenz ist, obwohl sie der Konvergenz ähnelt und wir sie als uneigentliche Konvergenz bezeichnen. Wir dürfen also auf bestimmt divergente Folgen keine Rechenregeln anwenden, die nur für konvergente Folgen gelten. Ein Beispiel ist die Produktregel $\lim _{n\to \infty }(a_{n}\cdot b_{n})=\lim _{n\to \infty }a_{n}\cdot \lim _{n\to \infty }b_{n}$. Diese Regel gilt für bestimmt divergente Folgen nicht, wie die folgende Umformung zeigt:
 
 \begin{align*}
-1=\lim _{n\to \infty }\left(n\cdot {\frac {1}{n}}\right)=\lim _{n\to \infty }n\cdot \lim _{n\to \infty }{\frac {1}{n}}=0\cdot \infty =0
+1=\lim _{n\to \infty }\left(n\cdot {\frac {1}{n}}\right)=\lim _{n\to \infty }n\cdot \lim _{n\to \infty }{\frac {1}{n}}=\infty\cdot 0 =0
 \end{align*}
 
 Man erhält also die falsche Aussage $1=0$, wenn man die Produktregel auf bestimmt divergente Folgen anwendet. Wir müssen also vorsichtig sein, welche Rechenregeln wir auf bestimmt divergente Folgen anwenden. 
@@ -3485,7 +3485,7 @@ Der Limes superior und der Limes inferior ist der größte und der kleinste Häu
 
 \section{Motivation}
 
-Der Grenzwert beschreibt das Verhalten einer Folge im Unendlichen. In jeder Umgebung um den Grenzwert liegen fast alle Folgenglieder (blaue Punkte in der folgenden Grafik) und damit befinden sich nur endlich viele Folgenglieder außerhalb einer beliebigen Umgebung (rote Punkte):
+Der Grenzwert einer Folge ist diejenige Zahl, gegen die eine Folge im Unendlichen strebt. In jeder Umgebung um den Grenzwert liegen fast alle Folgenglieder (blaue Punkte in der folgenden Grafik) und damit befinden sich nur endlich viele Folgenglieder außerhalb einer beliebigen Umgebung (rote Punkte):
 
 \stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Epsilonschlauch2.svg}{\textbf{Epsilonschlauch2.svg}} by Autorenkollektiv „Auswahlaxiom“ (Charlotte Dietze, Matthias Paulsen, Anne Reif), Stephan Kulla \textit{(CC BY-SA 4.0)}}\begin{center}
@@ -6215,7 +6215,7 @@ Es gibt mehrere Möglichkeiten die Stetigkeit einer Funktion zu beweisen:
 \begin{itemize}
 \item \emph{Verkettungssätze:} Wenn die Funktion als Verkettung stetiger Funktionen dargestellt werden kann, ist sie nach den Verkettungssätzen stetig. Dies ist ein einfacher Beweis, der aber erst dann angewandt werden kann, nachdem die Verkettungssätze in der Vorlesung eingeführt wurden.
 \item \emph{Ausnutzung der lokalen Natur der Stetigkeit:} Wenn eine Funktion in einer kleinen Umgebung um einen Punkt dieselbe Funktionsvorschrift wie die einer stetigen Funktion besitzt, dann muss sie an diesem Punkt auch stetig sein.
-\item \emph{Betrachtung des links- und rechtsseitigen Grenzwerts:} Eine andere Möglichkeit ist die zu zeigen, dass der linksseitige und rechtsseitige Grenzwert einer Funktion an einer Stelle existiert und gleich dem dortigen Funktionswert ist.
+\item \emph{Betrachtung des links- und rechtsseitigen Grenzwerts:} Wenn man zeigen kann, dass der linksseitige und rechtsseitige Grenzwert einer Funktion an einer Stelle existiert und gleich dem dortigen Funktionswert ist, dann ist die Funktion an dieser Stelle stetig.
 \item \emph{Nachweis Folgenkriterium:} Beim Folgenkriterium muss man zeigen, dass der Limes an der betrachteten Stelle in die Funktion gezogen werden kann. Für eine Folge $(x_{n})_{n\in \mathbb {N} }$ von Argumenten mit Grenzwert $x_{0}$ muss also gelten $\lim _{n\to \infty }f(x_{n})=f(x_{0})=f\left(\lim _{n\to \infty }x_{n}\right)$.
 \item \emph{Nachweis Epsilon-Delta-Kriterium:} Für jedes $\epsilon >0$ muss man zeigen, dass es ein $\delta >0$ gibt, so dass für alle Argumente $x$ mit Abstand kleiner als $\delta $ von der betrachteten Stelle $x_{0}$ die Ungleichung $|f(x)-f(x_{0})|<\epsilon $ erfüllt ist.
 \end{itemize}
@@ -9429,13 +9429,13 @@ Mit dieser Formel kann der Wert einer Funktion bestimmt werden, wenn man deren A
 
 \subsection{Version: Ableitung der Integralfunktion}
 
-In der Herleitung der Formel $F(x)=y_{a}+\int _{a}^{x}f(t)\,\mathrm {d} x$ haben wir angenommen, dass $f$ die Ableitung von $F$ ist. Können wir umgekehrt die Gleichung $F'(x)=f(x)$ zeigen, wenn wir $F$ über $F(x)=y_{a}+\int _{a}^{x}f(t)\,\mathrm {d} x$ definieren? Hierzu müsste gelten:
+In der Herleitung der Formel $F(x)=y_{a}+\int _{a}^{x}f(t)\,\mathrm {d} t$ haben wir angenommen, dass $f$ die Ableitung von $F$ ist. Können wir umgekehrt die Gleichung $F'(x)=f(x)$ zeigen, wenn wir $F$ über $F(x)=y_{a}+\int _{a}^{x}f(t)\,\mathrm {d} t$ definieren? Hierzu müsste gelten:
 
 \begin{align*}
-f(x)&=F'(x)={\frac {\mathrm {d} }{\mathrm {d} x}}\left(y_{a}+\int _{a}^{x}f(t)\,\mathrm {d} x\right)\\[0.5em]&=\underbrace {{\frac {\mathrm {d} }{\mathrm {d} x}}y_{a}} _{=\ 0}+{\frac {\mathrm {d} }{\mathrm {d} x}}\left(\int _{a}^{x}f(t)\,\mathrm {d} x\right)={\frac {\mathrm {d} }{\mathrm {d} x}}\left(\int _{a}^{x}f(t)\,\mathrm {d} x\right)
+f(x)&=F'(x)={\frac {\mathrm {d} }{\mathrm {d} x}}\left(y_{a}+\int _{a}^{x}f(t)\,\mathrm {d} t\right)\\[0.5em]&=\underbrace {{\frac {\mathrm {d} }{\mathrm {d} x}}y_{a}} _{=\ 0}+{\frac {\mathrm {d} }{\mathrm {d} x}}\left(\int _{a}^{x}f(t)\,\mathrm {d} t\right)={\frac {\mathrm {d} }{\mathrm {d} x}}\left(\int _{a}^{x}f(t)\,\mathrm {d} t\right)
 \end{align*}
 
-Damit unsere Vermutung stimmt, müssen wir $f(x)={\frac {\mathrm {d} }{\mathrm {d} x}}\left(\int _{a}^{x}f(t)\,\mathrm {d} x\right)$ beweisen. Sprich: Für eine Funktion $H:\mathbb {R} \to \mathbb {R} $ mit $H(x)=\int _{a}^{x}f(t)\,\mathrm {d} x$ muss $H'(x)=f(x)$ gelten. Eine solche Funktion $H$ werden wir \emph{Integralfunktion} nennen. Auch bei dieser neuen Version des Hauptsatzes werden wir voraussetzen, dass die Funktion $f$ stetig ist:
+Damit unsere Vermutung stimmt, müssen wir $f(x)={\frac {\mathrm {d} }{\mathrm {d} x}}\left(\int _{a}^{x}f(t)\,\mathrm {d} t\right)$ beweisen. Sprich: Für eine Funktion $H:\mathbb {R} \to \mathbb {R} $ mit $H(x)=\int _{a}^{x}f(t)\,\mathrm {d} t$ muss $H'(x)=f(x)$ gelten. Eine solche Funktion $H$ werden wir \emph{Integralfunktion} nennen. Auch bei dieser neuen Version des Hauptsatzes werden wir voraussetzen, dass die Funktion $f$ stetig ist:
 
 \begin{theorem*}[Hauptsatz der Differential- und Integralrechnung: Ableitung der Integralfunktion]
 Sei $f:[a,b]\to \mathbb {R} $ stetig. Dann ist die Integralfunktion $F:[a,b]\to \mathbb {R} $ mit $F(x)=\int _{a}^{x}f(t)\,\mathrm {d} t$ eine Stammfunktion von $f$. Es gilt also $F'({\tilde {x}})=f({\tilde {x}})$ für alle ${\tilde {x}}\in [a,b]$.
