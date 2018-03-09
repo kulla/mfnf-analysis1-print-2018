@@ -1614,7 +1614,7 @@ a_{n}\rightarrow a{\text{ für }}n\rightarrow \infty
 Man spricht hier „Limes von $a_{n}$ für $n$ gegen unendlich ist $a$“.
 
 \begin{mdframed}[style=semanticbox,frametitleaboveskip=3pt,innerbottommargin=3pt,frametitle=Frage]
-Wie lautet die Aussage in Prädikatenlogik dafür, dass eine Folge $(a_{n})_{n\in \mathbb {N} }$ konvergiert?
+Wie lautet die Aussage in Prädikatenlogik dafür, dass $(a_{n})_{n\in \mathbb {N} }$ konvergiert?
 
 \end{mdframed}
 
@@ -2777,7 +2777,7 @@ Damit haben wir $a_{n}=1-\left({\frac {1}{2}}\right)^{n}$ gezeigt. Nun können w
 \begin{align*}
 \lim _{n\to \infty }a_{n}&=\lim _{n\to \infty }1-\left({\frac {1}{2}}\right)^{n}\\[0.3em]&{\color {OliveGreen}\left\downarrow \ {\text{Grenzwertsatz: }}\lim _{n\to \infty }(a_{n}+b_{n})=\lim _{n\to \infty }a_{n}+\lim _{n\to \infty }b_{n}\right.}\\[0.3em]&=\lim _{n\to \infty }1-\lim _{n\to \infty }\left({\frac {1}{2}}\right)^{n}\\[0.3em]&=1-0=1
 \end{align*}
-
+\clearpage
 \section{Lösungsweg: Monotoniekriterium anwenden}
 
 \subsection{Schritt 1: Beweis der Konvergenz}
@@ -3249,7 +3249,7 @@ In der Literatur wird manchmal der Satz von Bolzano-Weierstraß in der Form „J
 Für den Satz von Bolzano-Weierstraß ist die Vollständigkeit der reellen Zahlen eine notwendige Eigenschaft. Um dies zu sehen, nehmen wir als Grundmenge die rationalen Zahlen. Hier betrachten wir eine Folge rationaler Zahlen, die gegen eine irrationale Zahl konvergieren würde. Weil diese Folge konvergiert, muss sie auch beschränkt sein (wir hatten bereits nachgewiesen, dass jede konvergente Folge beschränkt ist). Außerdem ist der irrationale Grenzwert der einzige Häufungspunkt der Folge (jeder Grenzwert ist alleiniger Häufungspunkt einer Folge).
 
 Nun besitzt die gewählte Folge keinen Häufungspunkt mehr, weil wir beim Wechsel von $\mathbb {R} $ nach $\mathbb {Q} $ den einzigen Häufungspunkt der Folge entfernt haben. Damit kann für die Grundmenge der rationalen Zahlen der Satz von Bolzano-Weierstraß nicht gelten. Schließlich kann es beschränkte rationale Folgen geben, die keine rationalen Häufungspunkte besitzen. Dieses Beispiel zeigt, wie wichtig die Grundmenge für den Satz ist und dass wir zum Beweis das Vollständigkeitsaxiom der reellen Zahlen benötigen werden. Schließlich ist die Vollständigkeit die wesentliche Eigenschaft, die die reellen von den rationalen Zahlen unterscheidet.
-
+\clearpage
 \section{Beweis (mit Intervallschachtelung)}
 
 \begin{proof*}[Satz von Bolzano-Weierstraß]
@@ -3345,20 +3345,6 @@ Wenn wir uns divergente Folgen anschauen, dann gibt es Folgen wie $a_{n}=n$, $b_
 \end{minipage}
 &
 \stepcounter{imagelabel}
-\addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Geometrische Folge.svg}{\textbf{Geometrische Folge.svg}} by Stephan Kulla \textit{(CC BY-SA 3.0)}}\begin{minipage}[t]{\linewidth}
-\begin{figure}[H]
-\begin{minipage}[t][0.2\textheight][c]{\linewidth}
-\centering
-\adjincludegraphics[max width=1.\linewidth, max height=0.2\textheight]{file58geometrische32folge95651a5c41481f267934607d64e90536ad4d99de86}
-\end{minipage}
-\caption*{Die Folge $b_{n}=2^{n}$ strebt eindeutig gegen $+\infty $. (\arabic{imagelabel})}
-\end{figure}
-
-\end{minipage}
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{XX}
-\stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:First elements of sequence -n+2*(-1)^n.svg}{\textbf{First elements of sequence \allowbreak-n+2*(\allowbreak-1)\textasciicircum{}n.svg}} by Stephan Kulla \textit{(CC0)}}\begin{minipage}[t]{\linewidth}
 \begin{figure}[H]
 \begin{minipage}[t][0.2\textheight][c]{\linewidth}
@@ -3369,7 +3355,6 @@ Wenn wir uns divergente Folgen anschauen, dann gibt es Folgen wie $a_{n}=n$, $b_
 \end{figure}
 
 \end{minipage}
-&
 \end{tabularx}
 
 Bei solchen Folgen werden wir sagen, dass sie bestimmt gegen $+\infty $ beziehungsweise gegen $-\infty $ divergieren. Demgegenüber gibt es bei Folgen wie $d_{n}=(-1)^{n}$ oder $e_{n}=(-1)^{n}\cdot n$ kein solches eindeutiges Streben. Die Folge $d_{n}=(-1)^{n}$ ist beschränkt und kann deswegen weder gegen $+\infty $ noch gegen $-\infty $ divergieren.
@@ -6597,13 +6582,13 @@ Sei $f:[a,b]\to \mathbb {R} $ eine beliebige stetige Funktion. An der Stelle $a$
 
 \stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Illustration_for_the_intermediate_value_theorem_(initial_situation).svg}{\textbf{Illustration\allowbreak\_for\allowbreak\_the\allowbreak\_intermediate\allowbreak\_value\allowbreak\_theorem\allowbreak\_(initial\allowbreak\_situation).svg}} by Lukasstockner, Stephan Kulla \textit{(CC0)}}\begin{center}
-\adjincludegraphics[max width=0.5\textwidth,max height=0.2\textheight]{file58illustration95for95the95intermediate95value95theorem9540initial95situation419540a768b86af84209bfd4d904827679b7d112ada8}\end{center}
+\adjincludegraphics[max width=0.4\textwidth,max height=0.2\textheight]{file58illustration95for95the95intermediate95value95theorem9540initial95situation419540a768b86af84209bfd4d904827679b7d112ada8}\end{center}
 
 Nach unserer Vorstellung besitzen stetige Funktionen innerhalb des Definitionsbereichs keine Sprünge. Da $f$ auf dem gesamten Intervall $[a,b]$ definiert ist und somit ihr Definitionsbereich zusammenhängend ist, verbindet der Graph die Punkte $(a,f(a))$ und $(b,f(b))$ ohne Sprünge. Wenn wir $f(a)$ und $f(b)$ ohne Absetzen des Stifts verbinden, müssen wir irgendwann die Gerade $y=s$ kreuzen. Es gibt also mindestens einen Schnittpunkt zwischen der Geraden $y=s$ und dem Graphen von $f$:
 
 \stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Illustration_for_the_intermediate_value_theorem.svg}{\textbf{Illustration\allowbreak\_for\allowbreak\_the\allowbreak\_intermediate\allowbreak\_value\allowbreak\_theorem.svg}} by Autorenkollektiv „Auswahlaxiom“ (Charlotte Dietze, Matthias Paulsen, Anne Reif), Lukasstockner, Stephan Kulla \textit{(CC0)}}\begin{center}
-\adjincludegraphics[max width=0.5\textwidth,max height=0.2\textheight]{file58illustration95for95the95intermediate95value95theorem959b86216ddb144128f2c46cc6413ebf0857fc5ea0}\end{center}
+\adjincludegraphics[max width=0.4\textwidth,max height=0.2\textheight]{file58illustration95for95the95intermediate95value95theorem959b86216ddb144128f2c46cc6413ebf0857fc5ea0}\end{center}
 
 Für die $x$-Werte ${\tilde {x}}$ der Schnittpunkte gilt $f({\tilde {x}})=s$. Der Zwischenwert $s$ wird also mindestens einmal durch die Funktion $f$ angenommen. Wir haben intuitiv gesehen, dass stetige Funktionen alle Werte zwischen zwei Funktionswerten mindestens einmal annehmen, wenn der Definitionsbereich keine Lücken zwischen den beiden Argumenten besitzt.
 
@@ -6805,13 +6790,13 @@ Das Epsilon-Delta-Kriterium garantiert uns so die Approximierbarkeit einer steti
 
 \stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Nonuniform_approximation_of_a_function.svg}{\textbf{Nonuniform\allowbreak\_approximation\allowbreak\_of\allowbreak\_a\allowbreak\_function.svg}} by Stephan Kulla \textit{(CC0)}}\begin{center}
-\adjincludegraphics[max width=0.5\textwidth,max height=0.2\textheight]{file58nonuniform95approximation95of95a95function95fc905bba583382c5ce96ebe638a1d7560b483a25}\end{center}
+\adjincludegraphics[max width=0.38\textwidth,max height=0.2\textheight]{file58nonuniform95approximation95of95a95function95fc905bba583382c5ce96ebe638a1d7560b483a25}\end{center}
 
 Jedoch hängen die gefundenen $\delta _{\tilde {x}}$-Werte von der betrachteten Stelle ${\tilde {x}}$ ab. Deswegen sind die Rechtecke in der obigen Grafik auch unterschiedlich groß. Um eine gleichmäßigere Approximation zu erhalten, können wir zusätzlich fordern, dass alle Rechtecke in der Approximation gleich groß sein sollen. D.h. der $\delta _{\tilde {x}}$-Wert soll für jedes ${\tilde {x}}$ gleich sein. Obige Abbildung sähe dann wie folgt aus:
 
 \stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Uniform_approximation_of_a_function.svg}{\textbf{Uniform\allowbreak\_approximation\allowbreak\_of\allowbreak\_a\allowbreak\_function.svg}} by Stephan Kulla \textit{(CC0)}}\begin{center}
-\adjincludegraphics[max width=0.5\textwidth,max height=0.2\textheight]{file58uniform95approximation95of95a95function9557a9f0805806f62a1723dabee40b2114f93a5ae2}\end{center}
+\adjincludegraphics[max width=0.38\textwidth,max height=0.2\textheight]{file58uniform95approximation95of95a95function9557a9f0805806f62a1723dabee40b2114f93a5ae2}\end{center}
 
 Dies ist die Kernidee der gleichmäßigen Stetigkeit. Bei ihr findet man für ein vorgegebenes $\epsilon >0$ ein \emph{globales} $\delta >0$, so dass egal welche Stelle ${\tilde {x}}\in D$ man betrachtet, jeder Funktionswert $f(x)$ aus dem Delta-Bereich $({\tilde {x}}-\delta ,{\tilde {x}}+\delta )$ einen Abstand kleiner als $\epsilon $ von $f({\tilde {x}})$ besitzt. Damit erhalten wir folgende Definition der gleichmäßigen Stetigkeit einer Funktion $f:D\to \mathbb {R} $, welche eine gleichmäßige Approximierbarkeit ermöglicht:
 
@@ -6836,8 +6821,6 @@ Eine Funktion $f:D\to \mathbb {R} $ ist gleichmäßig stetig auf D, falls zu jed
 \end{definition*}
 
 Anders formuliert heißt dies, dass es zu jedem $\epsilon >0$ ein $\delta >0$ gibt, so dass alle Paare $x,{\tilde {x}}\in D$ mit $|x-{\tilde {x}}|<\delta $ die Ungleichung $|f(x)-f({\tilde {x}})|<\epsilon $ erfüllen.
-
-\clearpage
 
 \subsection{Negation der gleichmäßigen Stetigkeit}
 
@@ -8527,7 +8510,7 @@ f''(x)=6x
 und daher $g''(-1)=-6<0$. Also hat $g$ ein striktes lokales Maximum bei ${\tilde {x}}=-1$.
 
 \end{example*}
-
+\clearpage
 \begin{exercise*}[Bestimmung von Extrema einer Funktion]
 Gegeben sei die Funktion
 
@@ -8614,7 +8597,7 @@ Wir können das Integral im Grunde auf zwei verschiedenen Weisen motivieren. Die
 Beim zweiteren geht es um Fragestellungen wie „Wie groß ist der zurückgelegte Weg $s$ meines Autos, wenn die Geschwindigkeit $v(t)$ zu jedem Zeitpunkt bekannt ist?“. Wir wollen also, dass wir bei bekannter Ableitung Rückschlüsse auf die Gesamtänderung einer Funktion ziehen können.
 
 Damit sind wir auch an einer Art Verallgemeinerung von Summen und Reihen interessiert. Würde sich nämlich die Geschwindigkeit deines Autos nicht von Moment zu Moment ändern, sondern nur alle 10 Zeiteinheiten, dann wäre es möglich, mithilfe einer Summe den zurückgelegten Weg auszurechnen. Ebenso wäre es möglich, von Flächen, die sich aus Rechtecken unterschiedlicher Größe zusammensetzen, den Flächeninhalt mit einer Summe zu berechnen. Während man also bei Summen über eine endliche Anzahl und bei Reihen über eine abzählbare Menge von Zahlen summiert, wollen wir nun über eine überabzählbare Menge, nämlich alle Funktionswerte einer Funktion, summieren. Dies ist aber mit den konventionellen Methoden nicht möglich. Wir benötigen daher ein neues mathematisches Instrument, das Integral.
-
+\clearpage
 \section{Intuitionen des Integrals}
 
 Für das Integral gibt es mehrere Intuitionen, die alle eng zusammenhängen:
@@ -9160,9 +9143,9 @@ Um den Mittelwert einer Treppenfunktion zu bestimmen, reicht es nicht aus, den D
 \stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Step function with three values (version 1).svg}{\textbf{Step function with three values (version 1).svg}} by Stephan Kulla \textit{(CC0)}}\begin{minipage}[t]{\linewidth}
 \begin{figure}[H]
-\begin{minipage}[t][0.2\textheight][c]{\linewidth}
+\begin{minipage}[t][0.1\textheight][c]{\linewidth}
 \centering
-\adjincludegraphics[max width=1.\linewidth, max height=0.2\textheight]{file58step32function32with32three32values3240version32141956257148effb24f66611736a16582d619148ec895}
+\adjincludegraphics[max width=1.\linewidth, max height=0.1\textheight]{file58step32function32with32three32values3240version32141956257148effb24f66611736a16582d619148ec895}
 \end{minipage}
 \caption*{Treppenfunktion mit den Werten $0$, $1$ und $2$. Der durchschnittliche Wert sollte aber größer als ${\tfrac {1}{3}}(0+1+2)=1$ sein. (\arabic{imagelabel})}
 \end{figure}
@@ -9172,9 +9155,9 @@ Um den Mittelwert einer Treppenfunktion zu bestimmen, reicht es nicht aus, den D
 \stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Step function with three values (version 2).svg}{\textbf{Step function with three values (version 2).svg}} by Stephan Kulla \textit{(CC0)}}\begin{minipage}[t]{\linewidth}
 \begin{figure}[H]
-\begin{minipage}[t][0.2\textheight][c]{\linewidth}
+\begin{minipage}[t][0.1\textheight][c]{\linewidth}
 \centering
-\adjincludegraphics[max width=1.\linewidth, max height=0.2\textheight]{file58step32function32with32three32values3240version32241958d2e19f127b92fccf8f2fcf9f0e475fdaf4fc6c8}
+\adjincludegraphics[max width=1.\linewidth, max height=0.1\textheight]{file58step32function32with32three32values3240version32241958d2e19f127b92fccf8f2fcf9f0e475fdaf4fc6c8}
 \end{minipage}
 \caption*{Auch diese Treppenfunktion nimmt nur die Werte $0$, $1$ und $2$ an. Ihr durchschnittlicher Wert sollte aber geringer als $1$ sein. (\arabic{imagelabel})}
 \end{figure}
