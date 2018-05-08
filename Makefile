@@ -9,7 +9,15 @@ FIGURES  = $(patsubst %.svg,%.pdf,$(wildcard *.svg)) \
            $(patsubst %.png,%.pdf,$(wildcard *.png))
 
 .PHONY: all
-all: ${FIGURES}
+all: analysis1.pdf analysis1-sw.pdf
+
+analysis1-sw.pdf: analysis1.pdf
+	gs -o '$@' -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress \
+		-sColorConversionStrategy=Gray \
+		-sColorConversionStrategyForImages=Gray \
+		-sProcessColorModel=DeviceGray -dCompatibilityLevel=1.4 '$<'
+
+analysis1.pdf: ${FIGURES}
 	$(LATEXMK) $(LATEXMKFLAGS) -pdflatex="$(LATEX) $(LATEXFLAGS) %O %S" \
 		-pdf "analysis1"
 
@@ -29,4 +37,4 @@ clean:
 
 .PHONY: upload
 upload:
-	scp cover.pdf analysis1.pdf hp:~/mfnf-analysis1-lmu2018
+	scp cover.pdf analysis1.pdf analysis1-sw.pdf hp:~/mfnf-print-2018
