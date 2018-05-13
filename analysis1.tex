@@ -102,12 +102,15 @@
 % \definecolor{forestgreen}{rgb}{0.13, 0.55, 0.13}
 
 % define colors in cmyk colorspace (for print)
-\definecolor{sblau}{cmyk}{0.83,0.41,0,0}
-\definecolor{shellblau}{cmyk}{0.39,0.05,0.03,0}
+%\definecolor{sblau}{cmyk}{0.83,0.41,0,0}
+%\definecolor{shellblau}{cmyk}{0.39,0.05,0.03,0}
+%\definecolor{forestgreen}{cmyk}{0.82,0.19,1,0.05}
+\definecolor{sblau}{cmyk}{0,0,0,0.3}
+\definecolor{shellblau}{cmyk}{0,0,0,0.3}
 \definecolor{forestgreen}{cmyk}{0.82,0.19,1,0.05}
 
 % change font and color of headers and table of contents
-\addtokomafont{disposition}{\rmfamily\color{sblau}}
+\addtokomafont{disposition}{\rmfamily}
 % change font of descriptionlabels
 \addtokomafont{descriptionlabel}{\rmfamily}
 % change font sizes of headings
@@ -163,7 +166,7 @@
                              bottomline=false,
                              theoremseparator=\\,
                              frametitlefont=\normalfont,
-                             theoremtitlefont={\normalfont\bfseries\color{sblau}},
+                             theoremtitlefont={\normalfont\bfseries\color{Black}},
                              frametitleaboveskip=0.5pt,
                              frametitlebelowskip=\baselineskip}
 
@@ -177,7 +180,7 @@
                               topline=false,
                               rightline=false,
                               bottomline=false,
-                              fontcolor=sblau}
+                              fontcolor=Black}
 
 \newlength{\IconHeight}
 \setlength\IconHeight{20px}
@@ -210,8 +213,8 @@
 \newenvironment{authors}{\par\vspace*{\fill}\color{white}Autoren und
 Autorinnen\\\bfseries}{\clearpage}
 
-\newcommand{\ColoredTOC}{{\color{sblau}\setcounter{tocdepth}{0}\tableofcontents}}
-\newcommand{\ColoredLOF}{{\color{sblau}\setcounter{tocdepth}{10}\listoffigures}}
+\newcommand{\ColoredTOC}{{\color{Black}\setcounter{tocdepth}{0}\tableofcontents}}
+\newcommand{\ColoredLOF}{{\color{Black}\setcounter{tocdepth}{10}\listoffigures}}
 \makeatletter
 \renewcommand\@dotsep{10000}
 \makeatother
@@ -228,11 +231,11 @@ Autorinnen\\\bfseries}{\clearpage}
 \renewcommand\@pnumwidth{1.5cm}
 \makeatother
 
-\setlist{leftmargin=11pt,labelindent=0pt,font=\color{sblau}}
+\setlist{leftmargin=11pt,labelindent=0pt,font=\color{Black}}
 
-\newcommand{\proofstep}[1]{\textbf{\textcolor{sblau}{#1}}}
-\newcommand{\proofcase}[2]{\textbf{\textcolor{sblau}{Fall #1:}} #2}
-\newcommand{\inductionstep}[2]{\textbf{\textcolor{sblau}{#1.}} #2}
+\newcommand{\proofstep}[1]{\textbf{\textcolor{Black}{#1}}}
+\newcommand{\proofcase}[2]{\textbf{\textcolor{Black}{Fall #1:}} #2}
+\newcommand{\inductionstep}[2]{\textbf{\textcolor{Black}{#1.}} #2}
 
 % no additional space around equations is needed since they are always in their own paragraph
 % see https://tex.stackexchange.com/a/69665
