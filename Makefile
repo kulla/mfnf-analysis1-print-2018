@@ -17,7 +17,7 @@ analysis1-sw.pdf: analysis1.pdf
 		-sColorConversionStrategyForImages=Gray \
 		-sProcessColorModel=DeviceGray -dCompatibilityLevel=1.4 '$<'
 
-analysis1.pdf: ${FIGURES}
+analysis1.pdf: ${FIGURES} analysis1.tex
 	$(LATEXMK) $(LATEXMKFLAGS) -pdflatex="$(LATEX) $(LATEXFLAGS) %O %S" \
 		-pdf "analysis1"
 
