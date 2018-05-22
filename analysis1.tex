@@ -24,6 +24,7 @@
 \usepackage{changepage}
 \usepackage{marvosym}
 \usepackage{multicol}
+\usepackage{needspace}
 \usepackage[usenamesm,svgnames,dvipsnames,table]{xcolor}
 
 % pdfencoding=auto for supporting special characters in PDF's table of contents
@@ -94,6 +95,9 @@
 \allowdisplaybreaks[4]
 \predisplaypenalty=0
 
+\clubpenalty=500
+\widowpenalty=500
+
 \setcounter{secnumdepth}{1}
 
 % define colors in rgb colorspace (for digital pdfs)
@@ -119,8 +123,8 @@
 \addtokomafont{partprefix}{\changefontsizes[12pt]{9pt}\color{white}}
 \KOMAoption{chapterprefix}{true}
 \addtokomafont{chapter}{\changefontsizes[28pt]{21pt}}
-\addtokomafont{section}{\changefontsizes[16pt]{12pt}}
-\addtokomafont{subsection}{\changefontsizes[12pt]{9pt}}
+\addtokomafont{section}{\needspace{7\baselineskip}\changefontsizes[16pt]{12pt}}
+\addtokomafont{subsection}{\needspace{5.5\baselineskip}\changefontsizes[12pt]{9pt}}
 \addtokomafont{chapterprefix}{\changefontsizes[12pt]{9pt}\color{sblau}}
 \RedeclareSectionCommand[innerskip=-\baselineskip]{chapter}
 
@@ -160,6 +164,7 @@
                              innerbottommargin=1pt,
                              startcode=\leavevmode,
                              linecolor=shellblau,
+                             needspace=5\baselineskip,
                              linewidth=2.75pt,
                              topline=false,
                              rightline=false,
@@ -173,6 +178,7 @@
 \mdfdefinestyle{importantbox}{innerleftmargin=8.25pt,
                               innerrightmargin=0pt,
                               innertopmargin=2pt,
+                              needspace=3\baselineskip,
                               innerbottommargin=1pt,
                               startcode=\leavevmode,
                               linecolor=shellblau,
@@ -3310,20 +3316,6 @@ Wenn wir uns divergente Folgen anschauen, dann gibt es Folgen wie $a_{n}=n$, $b_
 \end{minipage}
 &
 \stepcounter{imagelabel}
-\addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:Geometrische Folge.svg}{\textbf{Geometrische Folge.svg}} by Stephan Kulla \textit{(CC BY-SA 3.0)}}\begin{minipage}[t]{\linewidth}
-\begin{figure}[H]
-\begin{minipage}[t][0.2\textheight][c]{\linewidth}
-\centering
-\adjincludegraphics[max width=1.\linewidth, max height=0.2\textheight]{file58geometrische32folge95651a5c41481f267934607d64e90536ad4d99de86}
-\end{minipage}
-\caption*{Die Folge $b_{n}=2^{n}$ strebt eindeutig gegen $+\infty $. (\arabic{imagelabel})}
-\end{figure}
-
-\end{minipage}
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{XX}
-\stepcounter{imagelabel}
 \addxcontentsline{lof}{section}[]{Abb. \arabic{imagelabel}: \protect\href{https://commons.wikimedia.org/wiki/File:First elements of sequence -n+2*(-1)^n.svg}{\textbf{First elements of sequence \allowbreak-n+2*(\allowbreak-1)\textasciicircum{}n.svg}} by Stephan Kulla \textit{(CC0)}}\begin{minipage}[t]{\linewidth}
 \begin{figure}[H]
 \begin{minipage}[t][0.2\textheight][c]{\linewidth}
@@ -3334,7 +3326,6 @@ Wenn wir uns divergente Folgen anschauen, dann gibt es Folgen wie $a_{n}=n$, $b_
 \end{figure}
 
 \end{minipage}
-&
 \end{tabularx}
 
 Bei solchen Folgen werden wir sagen, dass sie bestimmt gegen $+\infty $ beziehungsweise gegen $-\infty $ divergieren. Demgegenüber gibt es bei Folgen wie $d_{n}=(-1)^{n}$ oder $e_{n}=(-1)^{n}\cdot n$ kein solches eindeutiges Streben. Die Folge $d_{n}=(-1)^{n}$ ist beschränkt und kann deswegen weder gegen $+\infty $ noch gegen $-\infty $ divergieren.
